@@ -1,3 +1,10 @@
+# Project specific ignored files
+geckodriver.*
+captcha/cache/
+captcha/cache.json
+
+*-streams.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
