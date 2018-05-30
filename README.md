@@ -1,6 +1,9 @@
 # kissanime-linkcrawler
 Dump a list of all available streaming sources of a series from [kissanime](http://kissanime.ru) into a file for later download.
 
+# Development notice
+Because the admins have noticed my sucessful circumvention of their captcha system they have adopted by randomly rotating and additionally tagging images with numbers. So simply hashing an image to identify it is no longer enough and I have to rewrite the captcha solver. **Therefore the captcha auto solver is currently not working and I will quickly add a option to manually solve the captchas untill I have adopted the auto captcha solver.**
+
 # Python Version
 This program is requiring `python3.3` or later!
 
@@ -26,6 +29,7 @@ optional arguments:
 - Download latest [geckodriver](https://github.com/mozilla/geckodriver/releases) and place it in the project directory.
 
 # TODO
+- Implement manual captcha solving option
 - Implement support for domains other than kissanime.ru
 - Implement search for other streams than only the first one found
 
